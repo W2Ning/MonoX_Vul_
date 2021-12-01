@@ -98,3 +98,25 @@ contract POC{
         return a;
     }
 ```
+
+### 复现方法
+
+* 主网上的攻击发生在高度为`13715026`的块上, 所以同样我们选前一个块去fork
+
+```
+npx ganache-cli  --fork https://eth-mainnet.alchemyapi.io/v2/Your_API_KEY@13715025   -l 4294967295
+```
+
+* 部署攻击合约
+
+
+[!image]()
+
+* 攻击前的MetaMask钱包余额
+
+[!image]()
+
+* 攻击后的钱包余额
+
+[!image]()
+
