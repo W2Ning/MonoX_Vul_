@@ -8,7 +8,7 @@ MonoX被攻击事件的分析和复现
 
 ### 核心攻击代码
 
-```sol
+```js
 contract POC{
 
     address WETH9_Address = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;
