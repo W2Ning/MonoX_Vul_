@@ -7,6 +7,7 @@ MonoX被攻击事件的分析和复现
 [完整攻击代码](https://github.com/W2Ning/MonoX_Vul_/blob/main/poc.sol)
 
 ### 核心攻击代码
+* 注意下面的代码缺少Interface, 不能直接复制
 
 ```js
 contract POC{
