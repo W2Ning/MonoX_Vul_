@@ -7,7 +7,9 @@ MonoX被攻击事件的分析和复现
 [完整攻击代码](https://github.com/W2Ning/MonoX_Vul_/blob/main/poc.sol)
 
 ### 核心攻击代码
+
 * 注意下面的代码缺少Interface, 不能直接复制
+* 所有的攻击步骤都在`constructor()`中实现, 也就是说当合约部署完成,攻击也已经完成
 
 ```js
 contract POC{
@@ -109,7 +111,6 @@ npx ganache-cli  --fork https://eth-mainnet.alchemyapi.io/v2/Your_API_KEY@137150
 ```
 
 * 部署攻击合约 注意部署时要带上100个`Finney`, 也就是0.1个`ETH`
-
 
 ![image](https://github.com/W2Ning/MonoX_Vul_/blob/main/images/%E9%83%A8%E7%BD%B2%E6%94%BB%E5%87%BB%E5%90%88%E7%BA%A6.png)
 
