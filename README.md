@@ -107,16 +107,16 @@ contract POC{
 npx ganache-cli  --fork https://eth-mainnet.alchemyapi.io/v2/Your_API_KEY@13715025   -l 4294967295
 ```
 
-* 部署攻击合约
+* 部署攻击合约 注意部署时要带上100个`Finney`, 也就是0.1个`ETH`
 
 
-[!image]()
+![image](https://github.com/W2Ning/MonoX_Vul_/blob/main/images/%E9%83%A8%E7%BD%B2%E6%94%BB%E5%87%BB%E5%90%88%E7%BA%A6.png)
 
 * 攻击前的MetaMask钱包余额
 
-[!image]()
+![image](https://github.com/W2Ning/MonoX_Vul_/blob/main/images/%E6%94%BB%E5%87%BB%E5%89%8D%E7%9A%84MetaMask%E9%92%B1%E5%8C%85%E4%BD%99%E9%A2%9D.png)
 
 * 攻击后的钱包余额
 
-[!image]()
+![image](https://github.com/W2Ning/MonoX_Vul_/blob/main/images/%E6%94%BB%E5%87%BB%E5%90%8E%E7%9A%84%E9%92%B1%E5%8C%85%E4%BD%99%E9%A2%9D.png)
 
