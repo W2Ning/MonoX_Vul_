@@ -4,7 +4,9 @@ MonoX被攻击事件的分析和复现
 [攻击事件的分析](https://github.com/W2Ning/MonoX_Vul_/blob/main/MonoX%E6%94%BB%E5%87%BB%E4%BA%8B%E4%BB%B6%E5%88%86%E6%9E%90.md)
 
 
-[完整攻击代码](https://github.com/W2Ning/MonoX_Vul_/blob/main/poc.sol)
+[部署即攻击版完整代码](https://github.com/W2Ning/MonoX_Vul_/blob/main/poc.sol)
+
+[步骤拆分版完整代码](https://github.com/W2Ning/MonoX_Vul_/blob/main/Step_By_Step.sol)
 
 ### 核心攻击代码
 
